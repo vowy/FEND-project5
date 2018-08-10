@@ -121,6 +121,7 @@ nav h1 a {
 	align-items: center;
 	justify-content: center;
 	padding: 1em 0 0 0;
+	height: 12em;
   width: 100%;
   background-color: #3397DB;
 	position: static;
@@ -136,7 +137,7 @@ nav h1 a {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
-  font-size: .6rem;
+  font-size: 1rem;
   height: auto;
   letter-spacing: 0;
   margin: 1em;
