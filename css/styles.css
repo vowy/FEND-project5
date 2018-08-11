@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Responsive */
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 763px) {
 	#restaurants-list li {
 		width: 100%;
 	}
@@ -11,7 +11,7 @@
 		letter-spacing: .2em;
 	}
 }
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 763px) {
 	#restaurants-list li {
 		width: 48%;
 	}
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* ====================== Header ====================== */
 header{
-	padding: 0 0 5 0;
+	padding: 0;
 	margin: 0;
 	width: 100%;
   background-color: #252831;
@@ -82,7 +82,11 @@ nav {
 	padding: 0;
   width: 100%;
 	text-align: center;
-  background-color: #252831;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+	background: #252831;
+  background: -moz-linear-gradient(left, #252831 0%, #CCCCCC 77%, #ADB4C9 100%);
+  background: -webkit-linear-gradient(left, #252831 0%, #CCCCCC 77%, #ADB4C9 100%);
+  background: linear-gradient(to right, #252831 0%, #CCCCCC 77%, #ADB4C9 100%);;
 }
 nav h1 a {
   color: #fff;
@@ -137,6 +141,12 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
+	top: 0;
+	position: sticky;
+	z-index: 1;
+	-webkit-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
+  -moz-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
+  box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: .5em;
@@ -145,9 +155,9 @@ nav h1 a {
 	height: auto;
   width: 100%;
   background-color: #3397DB;
-	position: relative;
 }
 .filter-options h2 {
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
 	width: 100%;
 	text-align: center;
   color: white;
@@ -157,13 +167,16 @@ nav h1 a {
   margin: 0;
 }
 .filter-options select {
+	-webkit-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
+  -moz-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
+  box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
 	align-self: center;
   background-color: white;
   border: .5em solid #fff;
   font-family: Arial,sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   letter-spacing: 0;
-  margin: .8em;
+  margin: .2em;
   padding: 0;
 }
 
@@ -199,8 +212,11 @@ nav h1 a {
 	width: 100%;
 }
 #restaurants-list li h1 {
+	margin: 0;
+	padding: 4%;
 	width: 100%;
   color: #f18200;
+	background-color: #222;
 	flex-shrink: 3;
   font-family: Arial,sans-serif;
   font-size: 100%;
@@ -213,6 +229,8 @@ nav h1 a {
   font-size: 100%;
 }
 #restaurants-list li a {
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 	flex-shrink: 3;
 	width: 100%;
 	position: static;
@@ -239,15 +257,20 @@ nav h1 a {
   width: 100%;
 }
 .inside #maincontent {
+	z-index: 0;
 	background-color: #222;
 	flex-direction: row;
 	width: 100%;
 
 }
 .inside #map-container {
+	z-index: -1;
+	top:0;
+	width: 100%;
+	position: sticky;
 	order: 1;
   background: blue none repeat scroll 0 0;
-  width: 50%;
+  width: 100%;
 }
 .inside #map {
 	float: left;
@@ -255,11 +278,14 @@ nav h1 a {
   width: 100%;
 }
 .inside #footer {
+	z-index: 1;
   bottom: 0;
   position: static;
   width: 100%;
 }
 #restaurant-name {
+	z-index: 1;
+	background-color: #222;
 	order: 3;
 	float: left;
 	height: 20%;
@@ -268,19 +294,25 @@ nav h1 a {
   color: #f18200;
 	letter-spacing: .5em;
   font-family: Arial,sans-serif;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: 200;
   margin: 1em 0em 1em 1em;
+	padding: 1em;
   text-transform: uppercase;
   line-height: 1.1;
 }
 #restaurant-img {
+	z-index: 0;
 	order: 2;
 	margin-top: 1em;
-	height: 50%;
+	height: 80%;
 	width: 50%;
 }
 #restaurant-address {
+ padding: 1em;
+ top:0;
+ position: sticky;
+ background-color: #222;
  float: left;
  text-align: center;
  letter-spacing: .5em;
