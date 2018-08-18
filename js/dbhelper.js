@@ -150,7 +150,13 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
+<<<<<<< HEAD
     return (`./img/${restaurant.photograph}`);
+||||||| merged common ancestors
+    return (`/img/${restaurant.photograph}`);
+=======
+    return (`fend-project5/img/${restaurant.photograph}`);
+>>>>>>> a3b8758f01d20cbfcd27d3d2030c6651751a0189
   }
 
   /**
