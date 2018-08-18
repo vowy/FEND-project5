@@ -325,7 +325,7 @@ nav h1 a {
 	width: 80%;
 	text-align: center;
   color: #f18200;
-  text-shadow: 4px 3px 0px #7A7A7A;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
   font-family: Arial,sans-serif;
   font-weight: 400;
   margin: 0;
