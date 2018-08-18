@@ -7,7 +7,7 @@
 		width: 100%;
 	}
 	nav h1 a {
-		font-size: 2em;
+		font-size: 1em;
 		letter-spacing: .2em;
 	}
 }
@@ -28,15 +28,8 @@
 		width: 25%;
 	}
 	body, .inside body {
-<<<<<<< HEAD
 		margin: 8% 0 8% 0;
 
-||||||| merged common ancestors
-		margin: 8%;
-=======
-		margin: 8%;
-		margin-top: 0;
->>>>>>> c02931dbe37c55a0c0cbae035bc2ef18424730de
 	}
 	nav h1 a {
 		text-align: left;
@@ -145,7 +138,7 @@ nav h1 a {
  margin: 0;
 }
 #map {
-  height: 40em;
+  height: 50%;
 	margin: 0;
 	padding: 0;
   background-color: #ccc;
