@@ -297,12 +297,12 @@ nav h1 a {
 	order: 3;
 	float: left;
 	height: 25%;
-	width: 38%;
+	width: 30%;
 	text-align: left;
   color: #f18200;
 	letter-spacing: .5em;
   font-family: Arial,sans-serif;
-  font-size: 1.7em;
+  font-size: 100%;
   font-weight: 200;
   margin: 1em 0em 0em;
 	padding: 0;
