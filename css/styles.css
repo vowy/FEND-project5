@@ -295,7 +295,7 @@ nav h1 a {
 #restaurant-name {
 	z-index: 2;
 	position: relative;
-	background-color: #222;
+	background: #222;
 	order: 3;
 	float: left;
 	height: 40%;
