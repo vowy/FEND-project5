@@ -3,7 +3,7 @@ Live Link: https://vowy.github.io/fend-project5/
 ---
 
 ## Project Information
-  This is the 5th project from Udacity.com's Front-End Web Developer Nano Degree Program [FEND]. Requirements were to change old code/style to be responsive and to implement a Service Worker to handle caching. 
+  This is the 5th project from Udacity.com's Front-End Web Developer Nano Degree Program [FEND]. Requirements were to change old code/style to be responsive and to implement a Service Worker to handle caching.
 
 ## Installation
 Download the folder 'fend-project5' from GitHub.
@@ -20,7 +20,3 @@ Current Version: .5 (BETA) - Live on GitHub.
 
 Previous Versions: None
 ---
-
-
-
-
