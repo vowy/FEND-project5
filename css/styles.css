@@ -264,7 +264,7 @@ nav h1 a {
 
 }
 .inside #map-container {
-	z-index: 1;
+	z-index: -1;
 	top: 0;
 	width: 100%;
 	position: sticky;
@@ -348,7 +348,7 @@ nav h1 a {
 #reviews-container h2 {
 	background-color: #222;
 	padding-bottom: 5%;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	width: 100%;
 	text-align: center;
