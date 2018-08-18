@@ -299,14 +299,14 @@ nav h1 a {
 	order: 3;
 	float: left;
 	height: 40%;
-	width: 30%;
+	width: 50%;
 	text-align: left;
   color: #f18200;
 	letter-spacing: .5em;
   font-family: Arial,sans-serif;
   font-size: 150%;
   font-weight: 200;
-  margin: 1em 0em 0em;
+  margin: 0;
 	padding: 0;
   text-transform: uppercase;
 }
@@ -339,10 +339,10 @@ nav h1 a {
   color: #ddd;
   font-size: 1.8em;
   font-weight: 300;
-  letter-spacing: 10px;
+  letter-spacing: .5;
   margin: 0 0 2em;
   padding: 0;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 	width: 50%;
 	height: 20%;
