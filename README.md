@@ -1,5 +1,5 @@
 # [FEND] Project 5 - Restaurant Review App
-Live Link
+Live Link: https://vowy.github.io/fend-project5/
 ---
 
 ## Project Information
