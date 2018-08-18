@@ -234,7 +234,7 @@ nav h1 a {
 }
 #restaurants-list li {
   margin-top: 5%;
-	min-height: 500px;
+	min-height: 531px;
 	position: relative;
   background-color: #fff;
   border: .2em solid #ccc;
@@ -254,7 +254,6 @@ nav h1 a {
 }
 #restaurants-list li h1 {
 	letter-spacing: .2em;
-	min-height: 531px;
 	margin: 0;
 	padding: 4%;
 	width: 100%;
