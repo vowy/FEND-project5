@@ -15,6 +15,10 @@
 		letter-spacing: .2em;
 		text-align: left;
 	}
+	#restaurant-name {
+		font-size: 1.2em;
+		letter-spacing: .2em;
+	}
 }
 @media only screen and (min-width: 645px) {
 	#restaurants-list li {
@@ -29,7 +33,7 @@
 		letter-spacing: .4em;
 	}
 	#restaurant-name {
-		letter-spacing: .3em;
+		letter-spacing: .4em;
 		font-size: 1.8em;
 	}
 }
@@ -45,8 +49,8 @@
 		letter-spacing: .6em;
 	}
 	#restaurant-name {
-		font-size: 1.8em;
-		letter-spacing: .5em;
+		font-size: 2em;
+		letter-spacing: .6em;
 	}
 }
 @media only screen and (min-width: 980px) {
