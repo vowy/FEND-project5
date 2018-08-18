@@ -288,13 +288,7 @@ nav h1 a {
   background-color: #ccc;
   width: 100%;
 }
-.inside #footer {
-	z-index: -1;
-	font-size: 1em;
-  bottom: 0;
-  position: static;
-  width: 100%;
-}
+
 #restaurant-name {
 	z-index: 2;
 	background-color: #222;
