@@ -7,7 +7,7 @@
 		width: 100%;
 	}
 	nav h1 a {
-		font-size: 2em;
+		font-size: 1.5em;
 		letter-spacing: .2em;
 	}
 }
@@ -252,7 +252,6 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-
 .inside header {
 	order: 0;
   position: static;
