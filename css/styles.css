@@ -134,12 +134,12 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map-container {
- weight: 90%;
+ width: 90%;
+ min-height: 250px;
  padding: 0;
  margin: 0;
 }
 #map {
-  height: 100%;
 	margin: 0;
 	padding: 0;
   background-color: #ccc;
