@@ -279,7 +279,7 @@ nav h1 a {
 	top: 0;
 	width: 100%;
 	position: sticky;
-	order: 1;
+	order: 4;
   background: blue none repeat scroll 0 0;
   width: 100%;
 }
