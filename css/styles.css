@@ -314,7 +314,7 @@ nav h1 a {
 	border: .2em solid #222;
 	position: relative;
 	float: right;
-	z-index: 0;
+	z-index: -1;
 	order: 2;
   margin: 0;
 	height: 78%;
