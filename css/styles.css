@@ -28,7 +28,8 @@
 		width: 25%;
 	}
 	body, .inside body {
-		margin: 8% 0 8%;
+		margin: 8%;
+		margin-top: 0;
 	}
 	nav h1 a {
 		text-align: left;
