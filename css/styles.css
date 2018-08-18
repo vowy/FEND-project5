@@ -309,7 +309,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #restaurant-img {
-	z-index: 2;
+	z-index: 1;
 	order: 2;
 	margin-top: 1em;
 	height: 80%;
