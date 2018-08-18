@@ -277,7 +277,7 @@ nav h1 a {
 
 }
 .inside #map-container {
-	z-index: -1;
+	z-index: -2;
 	top: 0;
 	width: 100%;
 	position: sticky;
@@ -286,7 +286,7 @@ nav h1 a {
   width: 100%;
 }
 .inside #map {
-	z-index: -1;
+	z-index: -2;
 	float: left;
   background-color: #ccc;
   width: 100%;
