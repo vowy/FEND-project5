@@ -290,7 +290,7 @@ nav h1 a {
   width: 100%;
 }
 .inside #footer {
-	z-index: 1;
+	z-index: -1;
 	font-size: 2em;
   bottom: 0;
   position: static;
@@ -364,7 +364,6 @@ nav h1 a {
 	width: 100%;
 	text-align: center;
 	position: sticky;
-	padding: 0;
 	letter-spacing: .2em;
   color: #f58500;
   font-size: 1.5em;
@@ -373,7 +372,6 @@ nav h1 a {
 #reviews-list {
 	width: 100%;
   margin: 2%;
-  padding: 0;
 }
 #reviews-list li {
   background-color: #fff;
