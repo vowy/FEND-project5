@@ -358,7 +358,7 @@ nav h1 a {
 }
 #reviews-container h2 {
 	background-color: #222;
-	padding-bottom: 5%;
+	padding: 5%;
 	z-index: 2;
 	top: 0;
 	width: 100%;
