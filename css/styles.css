@@ -396,6 +396,8 @@ nav h1 a {
   font-weight: 300;
 }
 #reviews-list {
+	align-content: center;
+	justify-content: space-around;
 	width: 100%;
   margin: 0;
 }
