@@ -270,6 +270,7 @@ nav h1 a {
 }
 .inside #maincontent {
 	z-index: 2;
+	position: relative;
 	background-color: #222;
 	flex-direction: row;
 	width: 100%;
