@@ -354,10 +354,9 @@ nav h1 a {
 	width: 100%;
 	text-align: center;
 	position: sticky;
-	padding: 0;
 	letter-spacing: .2em;
   color: #f58500;
-  font-size: 150%;
+  font-size: 1.65em;
   font-weight: 300;
 }
 #reviews-list {
