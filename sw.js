@@ -1,4 +1,4 @@
-const cacheVersion = 'v1';
+const cacheVersion = ('v1');
 
 const cachedPages = [
   'index.html',
