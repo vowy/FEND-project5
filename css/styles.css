@@ -291,6 +291,7 @@ nav h1 a {
 }
 .inside #footer {
 	z-index: 1;
+	font-size: 2em;
   bottom: 0;
   position: static;
   width: 100%;
@@ -306,7 +307,7 @@ nav h1 a {
   color: #f18200;
 	letter-spacing: .5em;
   font-family: Arial,sans-serif;
-  font-size: 100%;
+  font-size: 2em;
   font-weight: 200;
   margin: 1em 0em 1em 1em;
 	padding: 1em;
@@ -322,7 +323,6 @@ nav h1 a {
 }
 #restaurant-address {
  z-index: 2;
- padding: 1em;
  top:0;
  position: sticky;
  background-color: #222;
@@ -330,7 +330,7 @@ nav h1 a {
  text-align: center;
  letter-spacing: .5em;
  color: white;
- font-size: 100%;
+ font-size: 2em;
  margin: 1em 0em;
  width: 100%;
 }
@@ -339,7 +339,7 @@ nav h1 a {
 	float: right;
   background-color: #333;
   color: #ddd;
-  font-size: 100%;
+  font-size: 1.8em;
   font-weight: 300;
   letter-spacing: 10px;
   margin: 0 0 2em;
@@ -367,7 +367,7 @@ nav h1 a {
 	padding: 0;
 	letter-spacing: .2em;
   color: #f58500;
-  font-size: 150%;
+  font-size: 1.5em;
   font-weight: 300;
 }
 #reviews-list {
@@ -385,14 +385,14 @@ nav h1 a {
   position: relative;
 	height: 30%;
   width: auto;
-	font-size: 100%;
+	font-size: 1.5em;
 }
 #reviews-list li p {
 	flex-direction: column;
 }
 #restaurant-hours td {
 	z-index: 2;
-	display:subgrid;
+	display: subgrid;
 	letter-spacing: .3em;
 	height: 100%;
 	width: 30%;
@@ -400,5 +400,5 @@ nav h1 a {
 	background-color: #666;
   color: white;
 	text-align: justify;
-	font-size: 100%;
+	font-size: 1.8em;
 }
