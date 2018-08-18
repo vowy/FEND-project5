@@ -312,7 +312,6 @@ nav h1 a {
 }
 #restaurant-address {
  z-index: 2;
- padding: 1em;
  top:0;
  position: sticky;
  background-color: #222;
@@ -321,7 +320,7 @@ nav h1 a {
  letter-spacing: .5em;
  color: white;
  font-size: 1.8em;
- margin: 1em 0em;
+ padding: 1em 0;
  width: 100%;
 }
 #restaurant-cuisine {
