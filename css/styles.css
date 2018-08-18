@@ -260,7 +260,7 @@ nav h1 a {
 	background-color: #222;
 	flex-shrink: 3;
   font-family: Arial,sans-serif;
-  font-size: 100%;
+  font-size: 1.4em;
   font-weight: 400;
   text-transform: uppercase;
 }
