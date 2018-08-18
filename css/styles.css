@@ -131,7 +131,7 @@ nav {
   background: linear-gradient(to right, #252831 0%, #CCCCCC 77%, #ADB4C9 94%, #252831 100%);
 }
 nav h1 a {
-  color: #fff;
+  color: #EEE;
   font-weight: 200;
   text-transform: uppercase;
 }
@@ -406,7 +406,7 @@ nav h1 a {
 	margin: 0;
   position: relative;
 	height: 30%;
-  width: 85%;
+  width: 90%;
 	font-size: 1.5em;
 }
 #reviews-list li p {
