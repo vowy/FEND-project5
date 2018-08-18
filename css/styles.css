@@ -329,7 +329,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   font-weight: 400;
   margin-bottom: 0;
-	padding-bottom: .5em 0 .5em;
+	padding: .5em 0 .5em;
   text-transform: uppercase;
 }
 #restaurant-img {
