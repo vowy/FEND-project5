@@ -19,10 +19,10 @@ const cachedPages = [
   'img/10.jpg'
 ];
 
-self.addEventListener('install', (event) => {
+self.addEventListener('install', (e) => {
   console.log('Service Worker Installed');
 
-  event.waitUntil(
+  e.waitUntil(
     caches.open(cacheName).then(cache => {
       cache.addAll(cachedPages);
     })
