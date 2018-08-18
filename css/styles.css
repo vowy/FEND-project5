@@ -302,12 +302,11 @@ nav h1 a {
   color: #f18200;
 	letter-spacing: .5em;
   font-family: Arial,sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 200;
-  margin: 1em 0em 1em 1em;
-	padding: 1em;
+  margin: 1em 0em 0em;
+	padding: 0;
   text-transform: uppercase;
-  line-height: 1.1;
 }
 #restaurant-img {
 	z-index: 2;
