@@ -308,8 +308,6 @@ nav h1 a {
   text-transform: uppercase;
 }
 #restaurant-img {
-	background-color: orange;
-	filter: opacity(50%);
 	border: .2em solid #222;
 	position: static;
 	float: right;
