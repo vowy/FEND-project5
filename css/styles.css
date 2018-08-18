@@ -254,6 +254,7 @@ nav h1 a {
 }
 #restaurants-list li h1 {
 	letter-spacing: .2em;
+	min-height: 531px;
 	margin: 0;
 	padding: 4%;
 	width: 100%;
