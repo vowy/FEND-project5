@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8800 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    return `https://vowy.github.io/fend-project5/data/restaurants.json`;
   }
 
   /**
