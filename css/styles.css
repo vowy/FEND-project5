@@ -391,7 +391,7 @@ nav h1 a {
 #restaurant-hours td {
 	z-index: 2;
 	display: subgrid;
-	letter-spacing: .3em;
+	letter-spacing: 3%;
 	height: 100%;
 	width: 30%;
 	padding: .5em;
