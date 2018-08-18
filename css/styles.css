@@ -397,12 +397,13 @@ nav h1 a {
 }
 #reviews-list {
 	align-content: center;
-	justify-content: space-around;
+	justify-content: center;
 	width: 100%;
   margin: 0;
 }
 #reviews-list li {
   background-color: #fff;
+	justify-content: center;
   border: .2em solid #f3f3f3;
   list-style-type: none;
 	overflow: visible;
