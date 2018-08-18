@@ -134,7 +134,7 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map-container {
- width: 90%;
+ min-width: 250px;
  height: 100%;
  padding: 0;
  margin: 0;
