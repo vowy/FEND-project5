@@ -257,15 +257,13 @@ nav h1 a {
   width: 100%;
 }
 .inside #maincontent {
-	z-index: 0;
 	background-color: #222;
 	flex-direction: row;
 	width: 100%;
 
 }
 .inside #map-container {
-	z-index: -1;
-	top:0;
+	top: 0;
 	width: 100%;
 	position: sticky;
 	order: 1;
@@ -278,13 +276,11 @@ nav h1 a {
   width: 100%;
 }
 .inside #footer {
-	z-index: 1;
   bottom: 0;
   position: static;
   width: 100%;
 }
 #restaurant-name {
-	z-index: 1;
 	background-color: #222;
 	order: 3;
 	float: left;
@@ -302,7 +298,6 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	z-index: 0;
 	order: 2;
 	margin-top: 1em;
 	height: 80%;
@@ -357,7 +352,7 @@ nav h1 a {
 }
 #reviews-list {
 	width: 100%;
-  margin: 0;
+  margin: 2%;
   padding: 0;
 }
 #reviews-list li {
