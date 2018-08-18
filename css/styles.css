@@ -7,7 +7,7 @@
 		width: 100%;
 	}
 	nav h1 a {
-		font-size: 1em;
+		font-size: 2em;
 		letter-spacing: .2em;
 	}
 }
@@ -28,8 +28,15 @@
 		width: 25%;
 	}
 	body, .inside body {
+<<<<<<< HEAD
 		margin: 8% 0 8% 0;
 
+||||||| merged common ancestors
+		margin: 8%;
+=======
+		margin: 8%;
+		margin-top: 0;
+>>>>>>> c02931dbe37c55a0c0cbae035bc2ef18424730de
 	}
 	nav h1 a {
 		text-align: left;
@@ -134,12 +141,11 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map-container {
- width: 100%;
  padding: 0;
  margin: 0;
 }
 #map {
-  height: 35em;
+  height: 40em;
 	margin: 0;
 	padding: 0;
   background-color: #ccc;
@@ -269,16 +275,19 @@ nav h1 a {
 
 }
 .inside #map-container {
-	z-index: 1;
+	z-index: -1;
 	top: 0;
+	width: 100%;
 	position: sticky;
 	order: 1;
   background: blue none repeat scroll 0 0;
+  width: 100%;
 }
 .inside #map {
-	z-index: 1;
+	z-index: -1;
 	float: left;
   background-color: #ccc;
+  width: 100%;
 }
 .inside #footer {
 	z-index: 1;
@@ -297,7 +306,7 @@ nav h1 a {
   color: #f18200;
 	letter-spacing: .5em;
   font-family: Arial,sans-serif;
-  font-size: 2em;
+  font-size: 100%;
   font-weight: 200;
   margin: 1em 0em 1em 1em;
 	padding: 1em;
@@ -313,6 +322,7 @@ nav h1 a {
 }
 #restaurant-address {
  z-index: 2;
+ padding: 1em;
  top:0;
  position: sticky;
  background-color: #222;
@@ -320,8 +330,8 @@ nav h1 a {
  text-align: center;
  letter-spacing: .5em;
  color: white;
- font-size: 1.8em;
- padding: 1em 0;
+ font-size: 100%;
+ margin: 1em 0em;
  width: 100%;
 }
 #restaurant-cuisine {
@@ -329,7 +339,7 @@ nav h1 a {
 	float: right;
   background-color: #333;
   color: #ddd;
-  font-size: 1.5em;
+  font-size: 100%;
   font-weight: 300;
   letter-spacing: 10px;
   margin: 0 0 2em;
@@ -354,9 +364,10 @@ nav h1 a {
 	width: 100%;
 	text-align: center;
 	position: sticky;
+	padding: 0;
 	letter-spacing: .2em;
   color: #f58500;
-  font-size: 1.65em;
+  font-size: 150%;
   font-weight: 300;
 }
 #reviews-list {
@@ -389,5 +400,5 @@ nav h1 a {
 	background-color: #666;
   color: white;
 	text-align: justify;
-	font-size: 1.5em;
+	font-size: 100%;
 }
