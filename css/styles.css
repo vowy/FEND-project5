@@ -291,9 +291,9 @@ nav h1 a {
 }
 .inside #footer {
 	z-index: -1;
-	font-size: 2em;
+	font-size: 1em;
   bottom: 0;
-  position: relative;
+  position: fixed;
   width: 100%;
 }
 #restaurant-name {
