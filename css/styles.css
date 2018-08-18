@@ -257,12 +257,14 @@ nav h1 a {
   width: 100%;
 }
 .inside #maincontent {
+	z-index: 2;
 	background-color: #222;
 	flex-direction: row;
 	width: 100%;
 
 }
 .inside #map-container {
+	z-index: 1;
 	top: 0;
 	width: 100%;
 	position: sticky;
@@ -271,16 +273,19 @@ nav h1 a {
   width: 100%;
 }
 .inside #map {
+	z-index: 1;
 	float: left;
   background-color: #ccc;
   width: 100%;
 }
 .inside #footer {
+	z-index: 1;
   bottom: 0;
   position: static;
   width: 100%;
 }
 #restaurant-name {
+	z-index: 2;
 	background-color: #222;
 	order: 3;
 	float: left;
@@ -298,12 +303,14 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
+	z-index: 2;
 	order: 2;
 	margin-top: 1em;
 	height: 80%;
 	width: 50%;
 }
 #restaurant-address {
+ z-index: 2;
  padding: 1em;
  top:0;
  position: sticky;
@@ -317,6 +324,7 @@ nav h1 a {
  width: 100%;
 }
 #restaurant-cuisine {
+	z-index: 2;
 	float: right;
   background-color: #333;
   color: #ddd;
@@ -331,6 +339,7 @@ nav h1 a {
 	height: 20%;
 }
 #restaurant-container, #reviews-container {
+	z-index: 2;
   width: 100%;
 }
 #reviews-container {
@@ -371,6 +380,7 @@ nav h1 a {
 	flex-direction: column;
 }
 #restaurant-hours td {
+	z-index: 2;
 	display:subgrid;
 	letter-spacing: .3em;
 	height: 100%;
