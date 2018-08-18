@@ -134,7 +134,7 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map-container {
- weight: 100%;
+ weight: 90%;
  padding: 0;
  margin: 0;
 }
