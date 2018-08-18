@@ -1,4 +1,4 @@
-const cacheVersion = ('v1');
+const cacheName = ('v1');
 
 const cachedPages = [
   'index.html',
@@ -23,7 +23,7 @@ self.addEventListener('install', (event) => {
   console.log('Service Worker Installed');
 
   event.waitUntil(
-    caches.open(cacheVersion).then(cache => {
+    caches.open(cacheName).then(cache => {
       cache.addAll(cachedPages);
     })
      .then(() => self.skipWaiting())
