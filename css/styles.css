@@ -277,7 +277,7 @@ nav h1 a {
 
 }
 .inside #map-container {
-	z-index: -2;
+	z-index: -1;
 	top: 0;
 	width: 100%;
 	position: sticky;
@@ -286,7 +286,7 @@ nav h1 a {
   width: 100%;
 }
 .inside #map {
-	z-index: -2;
+	z-index: -1;
 	float: left;
   background-color: #ccc;
   width: 100%;
@@ -312,9 +312,9 @@ nav h1 a {
 }
 #restaurant-img {
 	border: .2em solid #222;
-	position: relative;
+	position: static;
 	float: right;
-	z-index: -1;
+	z-index: 0;
 	order: 2;
   margin: 0;
 	height: 78%;
