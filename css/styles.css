@@ -38,9 +38,6 @@
 	#restaurants-list li {
 		width: 25%;
 	}
-	body, .inside body {
-		margin: 0 10% 0;
-	}
 	nav h1 a {
 		font-size: 2em;
 		letter-spacing: .8em;
