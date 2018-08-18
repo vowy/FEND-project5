@@ -13,6 +13,9 @@
 	}
 }
 @media only screen and (min-width: 533px) {
+	#restaurants-list li {
+		width: 48%;
+	}
 	nav h1 a {
 		text-align: center;
 		font-size: 2em;
