@@ -329,7 +329,7 @@ nav h1 a {
  letter-spacing: .5em;
  color: white;
  font-size: 2em;
- margin: 1em 0em;
+ margin: 1em 0em 2em;
  width: 100%;
 }
 #restaurant-cuisine {
@@ -342,7 +342,7 @@ nav h1 a {
   letter-spacing: .5em;
   margin: 0 0 2em;
   padding: 0;
-  text-align: left;
+  text-align: right;
   text-transform: uppercase;
 	width: 50%;
 	height: 20%;
