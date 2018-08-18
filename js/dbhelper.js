@@ -7,10 +7,10 @@ class DBHelper {
    * Database URL.
    * Change this to restaurants.json file location on your server.
    */
-  static get DATABASE_URL() {
-    const port = 8800 // Change this to your server port
-    return `https://vowy.github.io/fend-project5/data/restaurants.json`;
-  }
+   static get DATABASE_URL() {
+     const port = 8800 // Change this to your server port
+     return `https://vowy.github.io/fend-project5/data/restaurants.json`;
+   }
 
   /**
    * Fetch all restaurants.
