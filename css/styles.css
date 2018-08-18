@@ -1,7 +1,8 @@
 @charset "utf-8";
-/* CSS Document */
 
-/* Responsive */
+/**
+ * Responsiveness
+ */
 @media only screen and (max-width: 644px) {
 	#restaurants-list li {
  		width: 100%;
@@ -27,6 +28,10 @@
 		font-size: 2em;
 		letter-spacing: .4em;
 	}
+	#restaurant-name {
+		letter-spacing: .3em;
+		font-size: 1.5em;
+	}
 }
 @media only screen and (min-width: 763px) {
 	#restaurants-list li {
@@ -39,6 +44,10 @@
 		font-size: 2em;
 		letter-spacing: .6em;
 	}
+	#restaurant-name {
+		font-size: 1.5em;
+		letter-spacing: .5em;
+	}
 }
 @media only screen and (min-width: 980px) {
 	#restaurants-list li {
@@ -48,7 +57,14 @@
 		font-size: 2em;
 		letter-spacing: .8em;
 	}
+	#restaurant-name {
+		letter-spacing: .8em;
+		font-size: 2em;
+	}
 }
+/**
+ *  Normal CSS
+ */
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	color: #333;
@@ -305,9 +321,7 @@ nav h1 a {
 	width: 80%;
 	text-align: center;
   color: #f18200;
-	letter-spacing: .5em;
   font-family: Arial,sans-serif;
-  font-size: 150%;
   font-weight: 200;
   margin: 0;
 	padding: 0;
