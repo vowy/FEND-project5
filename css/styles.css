@@ -102,7 +102,7 @@ nav {
 	background: #252831;
   background: -moz-linear-gradient(left, #252831 0%, #CCCCCC 77%, #ADB4C9 90% #252831 100%);
   background: -webkit-linear-gradient(left, #252831 0%, #CCCCCC 77%, #ADB4C9 90% #252831 100%);
-  background: linear-gradient(to right, #252831 0%, #CCCCCC 77%, #ADB4C9 90% #252831 100%);;
+  background: linear-gradient(to right, #252831 0%, #CCCCCC 77%, #ADB4C9 90% #252831 100%);
 }
 nav h1 a {
   color: #fff;
