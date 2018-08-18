@@ -293,6 +293,7 @@ nav h1 a {
 
 #restaurant-name {
 	z-index: 2;
+	position: relative;
 	background-color: #222;
 	order: 3;
 	float: left;
@@ -309,7 +310,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #restaurant-img {
-	z-index: 1;
+	z-index: 0;
 	order: 2;
 	margin-top: 1em;
 	height: 80%;
