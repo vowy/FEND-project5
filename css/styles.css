@@ -147,9 +147,9 @@ nav h1 a {
 	top: 0;
 	position: sticky;
 	z-index: 1;
-	-webkit-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
-  -moz-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
-  box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
+	-webkit-box-shadow: inset 7px 22px 130px -29px rgba(250,246,242,1);
+  -moz-box-shadow: inset 7px 22px 130px -29px rgba(250,246,242,1);
+  box-shadow: inset 7px 22px 130px -29px rgba(250,246,242,1);
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: .5em;
