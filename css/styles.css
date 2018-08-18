@@ -290,10 +290,10 @@ nav h1 a {
   width: 100%;
 }
 .inside #footer {
-	z-index: -1;
+	z-index: 1;
 	font-size: 1em;
   bottom: 0;
-  position: fixed;
+  position: static;
   width: 100%;
 }
 #restaurant-name {
