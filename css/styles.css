@@ -293,7 +293,7 @@ nav h1 a {
 	z-index: -1;
 	font-size: 2em;
   bottom: 0;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 #restaurant-name {
