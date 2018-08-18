@@ -394,7 +394,7 @@ nav h1 a {
 }
 #reviews-list {
 	width: 100%;
-  margin: 1%;
+  margin: 0;
 }
 #reviews-list li {
   background-color: #fff;
