@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Responsive */
-@media only screen and (max-width: 532px) {
+@media only screen and (max-width: 533px) {
 	nav h1 a {
 		font-size: 1.2em;
 		letter-spacing: 0;
@@ -15,7 +15,7 @@
 	}
 	nav h1 a {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 1.8em;
 		letter-spacing: .2em;
 	}
 };
@@ -31,7 +31,7 @@
 		letter-spacing: .6em;
 	}
 }
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 855px) {
 	#restaurants-list li {
 		width: 25%;
 	}
