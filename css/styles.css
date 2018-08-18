@@ -391,12 +391,12 @@ nav h1 a {
 #restaurant-hours td {
 	z-index: 2;
 	display: subgrid;
-	letter-spacing: 3%;
+	letter-spacing: .1em;
 	height: 100%;
 	width: 30%;
 	padding: .5em;
 	background-color: #666;
   color: white;
-	text-align: justify;
+	text-align: center;
 	font-size: 1.8em;
 }
