@@ -30,7 +30,7 @@
 	}
 	#restaurant-name {
 		letter-spacing: .3em;
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 }
 @media only screen and (min-width: 763px) {
@@ -45,7 +45,7 @@
 		letter-spacing: .6em;
 	}
 	#restaurant-name {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		letter-spacing: .5em;
 	}
 }
