@@ -1,5 +1,4 @@
 const cacheName = 'v1';
-
 const cachedPages = [
   'index.html',
   'restaurant.html',
@@ -30,6 +29,13 @@ self.addEventListener('install', (e) => {
   );
 });
 
-self.addEventListener('activate', (event) => {
+self.addEventListener('activate', (e) => {
   console.log('Service Worker Activated');
+  e.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map
+      )
+    })
+  )
 });
