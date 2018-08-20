@@ -53,9 +53,12 @@
 		letter-spacing: .6em;
 	}
 }
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1275px) {
 	#restaurants-list li {
-		width: 25%;
+		width: 30%;
+	}
+	body, .inside body {
+		margin: 0 12% 0;
 	}
 	nav h1 a {
 		font-size: 2em;
@@ -69,8 +72,9 @@
 /**
  *  Normal CSS
  */
+
 body,td,th,p{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	color: #333;
 }
 body {
@@ -86,7 +90,7 @@ ul, li {
 	margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	color: #333;
 }
 a {
@@ -98,7 +102,7 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
 }
 #footer {
 	z-index: 2;
@@ -203,7 +207,7 @@ nav h1 a {
   font-size: 200%;
   font-weight: normal;
 	letter-spacing: .5em;
-  margin: 0;
+  margin: 0 0 .6em;
 }
 .filter-options select {
 	-webkit-box-shadow: inset -7px 22px 130px -29px rgba(250,246,242,1);
@@ -212,7 +216,7 @@ nav h1 a {
 	align-self: center;
   background-color: white;
   border: .5em solid #fff;
-  font-family: Arial,sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 1em;
   letter-spacing: 0;
   margin: .2em;
@@ -236,7 +240,7 @@ nav h1 a {
 	position: relative;
   background-color: #fff;
   border: .2em solid #ccc;
-  font-family: Arial,sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
 	padding: 0;
 	align-items:flex-start;
 	display: flex;
@@ -259,7 +263,7 @@ nav h1 a {
 	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
 	background-color: #222;
 	flex-shrink: 3;
-  font-family: Arial,sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 1.4em;
   font-weight: 400;
   text-transform: uppercase;
@@ -331,7 +335,7 @@ nav h1 a {
 	text-align: center;
   color: #f18200;
   text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
-  font-family: Arial,sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 	padding: .5em 0 .5em;
