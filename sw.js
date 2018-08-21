@@ -1,7 +1,18 @@
-const cacheName = 'v1';
+const cacheName = 'v2';
 const cachedPages = [
+  "/./",
   'index.html',
   'restaurant.html',
+  'http://localhost:3000/restaurant.html?id=1',
+  'http://localhost:3000/restaurant.html?id=2',
+  'http://localhost:3000/restaurant.html?id=3',
+  'http://localhost:3000/restaurant.html?id=4',
+  'http://localhost:3000/restaurant.html?id=5',
+  'http://localhost:3000/restaurant.html?id=6',
+  'http://localhost:3000/restaurant.html?id=7',
+  'http://localhost:3000/restaurant.html?id=8',
+  'http://localhost:3000/restaurant.html?id=9',
+  'http://localhost:3000/restaurant.html?id=10',
   '/css/styles.css',
   '/js/dbhelper.js',
   '/js/main.js',
@@ -29,13 +40,26 @@ self.addEventListener('install', (e) => {
   );
 });
 
+
 self.addEventListener('activate', (e) => {
   console.log('Service Worker Activated');
   e.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
-        cacheNames.map
+        cacheNames.map(cache => {
+          if (cache !== cacheName) {
+            console.log('Service Worker: Clearing Old Cache');
+            return caches.delete(cache);
+          };
+        })
       )
     })
   )
+});
+
+self.addEventListener ('fetch', (e) => {
+ e.respondWith(
+   fetch(e.request).catch(
+    () => caches.match(e.request)
+ ));
 });
