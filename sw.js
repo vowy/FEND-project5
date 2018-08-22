@@ -29,7 +29,7 @@ var cachedPages = [
   'img/10.jpg'
 ];
 
-self.addEventListener('install', function(event) {
+self.addEventListener('install', (e) => {
   event.waitUntil(
     caches.open(cacheName)
     .then(function(cache) {
