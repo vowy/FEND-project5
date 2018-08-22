@@ -29,14 +29,12 @@ const cachedPages = [
   'img/10.jpg'
 ];
 
-self.addEventListener('install', (e) => {
-  console.log('Service Worker Installed');
-
-  e.waitUntil(
-    caches.open(cacheName).then(cache => {
-      cache.addAll(cachedPages);
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(cacheName)
+    .then(function(cache) {
+      return cache.addAll(cachedPages);
     })
-     .then(() => self.skipWaiting())
   );
 });
 
@@ -44,9 +42,9 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   console.log('Service Worker Activated');
   e.waitUntil(
-    caches.keys().then(cacheNames => {
+    caches.keys().then(cacheName => {
       return Promise.all(
-        cacheNames.map(cache => {
+        cacheName.map(cache => {
           if (cache !== cacheName) {
             console.log('Service Worker: Clearing Old Cache');
             return caches.delete(cache);

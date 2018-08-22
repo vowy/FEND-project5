@@ -11,12 +11,19 @@ Download the folder 'fend-project5' from GitHub.
 Open the file 'index.html' in the project folder in a Browser of your choice.
 
 ## Version History
-Current Version: .5 (BETA) - Live on GitHub.
+Current Version: 1.0 (LIVE) - Live on Github, changes made to satisfy reviews
+---
+-Font changed back to Arial
+
+-Added ARIA Accessibility handling
+
+-Updated Service Worker (sw.js), site should operate offline
+
+
+Previous Versions:
+.5 (BETA) - Live on GitHub.
 ---
 -Most of CSS Responsive changes made.
 
 -Still need to implement a working Service Worker script.
-
-
-Previous Versions: None
 ---
