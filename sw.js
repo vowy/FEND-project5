@@ -1,6 +1,6 @@
 const cache_name= 'v3';
 const cachedPages = [
-  '/./',
+  '.',
   'index.html',
   'restaurant.html',
   'restaurant.html?id=1',
