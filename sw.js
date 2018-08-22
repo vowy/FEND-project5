@@ -30,7 +30,7 @@ var cachedPages = [
 ];
 
 self.addEventListener('install', (e) => {
-  event.waitUntil(
+  e.waitUntil(
     caches.open(cacheName)
     .then(function(cache) {
       return cache.addAll(cachedPages);
