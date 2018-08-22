@@ -25,5 +25,4 @@ Previous Versions:
 ---
 -Most of CSS Responsive changes made.
 
--Still need to implement a working Service Worker script.
 ---
