@@ -1,5 +1,5 @@
-var cacheName = 'v3';
-var cachedPages = [
+const cache_name= 'v3';
+const cachedPages = [
   '/./',
   'index.html',
   'restaurant.html',
@@ -31,7 +31,7 @@ var cachedPages = [
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open(cacheName)
+    caches.open(cache_name)
     .then(function(cache) {
       return cache.addAll(cachedPages);
     })
@@ -42,10 +42,10 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   console.log('Service Worker Activated');
   e.waitUntil(
-    caches.keys().then(cacheName => {
+    caches.keys().then(cache_name => {
       return Promise.all(
-        cacheName.map(cache => {
-          if (cache !== cacheName) {
+        cache_name.map(cache => {
+          if (cache !== cache_name) {
             console.log('Service Worker: Clearing Old Cache');
             return caches.delete(cache);
           };
