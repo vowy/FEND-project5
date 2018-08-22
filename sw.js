@@ -1,5 +1,5 @@
-const cacheName = 'v3';
-const cachedPages = [
+var cacheName = 'v3';
+var cachedPages = [
   '/./',
   'index.html',
   'restaurant.html',
